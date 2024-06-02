@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7b8ae75c-ab1a-4334-a820-85bc5804dc47/resourceGroups/az-group-rg/providers/Microsoft.Web/sites/az-webapp-sapient",
+    "appService.deploySubpath": "publish\\publish.zip"
+}
