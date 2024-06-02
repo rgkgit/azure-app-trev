@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_trev</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/7b8ae75c-ab1a-4334-a820-85bc5804dc47/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-webapp-sapient-git</ApplicationInsightsResourceId>
+    <UserSecretsId>44023050-b6d9-478f-b08e-494be0d63501</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
